@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    
+    // for(let a=0;a<=100;a++){
+    //   console.log(Math.round(Math.random()*100))
+    // }
+
+    const rand=(min,max)=>{
+      return Math.round(Math.random()*(max-min))+min
+    }
+
+    for(let a=0;a<=100;a++){
+      console.log(rand(50,100))
+    }
+    
+    
+  </script>
+</body>
+</html>
